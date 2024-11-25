@@ -1,10 +1,13 @@
-# This script analyzes and resamples WAV files to a predefined sampling rate from a user selected folder
+# This script analyzes and resamples WAV, aif, and FLAC files to a predefined sampling rate from a user selected folder
 # Created by Jared Stephens 08/11/2023
 # Edited: JS - 02/16/2024
     # Adjusted "process_files" and "get_output_filename" functions to accommodate .WAV and .aif files.
-# Edits JS - 11/10/2024
+# Edited JS - 11/10/2024
     # Adjusted "process_files" and get_output_filename" fucntion to accomodate .flac files
     # Added a "compress_to_flac" function to convert .wav and .aif files to .flac
+# Edited JS - 11/24/2024 
+    # Updated the UI to include separate tabs for resampling and FLAC compression
+    # Fixed the bugs with the progress bar labels so it desplays correct files being processed
 
 # Pip install Pillow
 import os
